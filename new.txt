@@ -1,0 +1,20 @@
+      // <ScrollView style={styles.content}>
+      //   {/* Products */}
+      //   <View style={styles.productsSection}>
+      //     {filteredProducts.map(product => (
+      //       <ProductCard 
+      //         key={product.id}
+      //         title={product.name}
+      //         rating={product.rating}
+      //         price={product.price}
+      //         image={product.image}
+      //       />
+      //     ))}
+      //   </View>
+
+      //   {/* Featured Image */}
+      //   <Image 
+      //     source={{ uri: 'https://via.placeholder.com/400x200' }}
+      //     style={styles.featuredImage}
+      //   />
+      // </ScrollView>
