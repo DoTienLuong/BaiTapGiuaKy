@@ -134,6 +134,14 @@ const App = ({ navigation }) => {
           </TouchableOpacity>
         </View>
       
+      {/* Panel */}
+        <View style={styles.panel}>
+          <Image 
+            source={require('./assets/Capture.PNG')}
+            style={styles.imagePanel}
+          />
+        </View>
+
       {/* Categories */}
       <View style={styles.categoriesSection}>
         <View style={styles.sectionHeader}>
@@ -161,7 +169,7 @@ const App = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'red',
   },
   header: {
     flexDirection: 'row',
@@ -179,6 +187,18 @@ const styles = StyleSheet.create({
     width: 30,
     height: 30,
     borderRadius: 15,
+  },
+  panel:{
+    width: '100%',
+    height: 120,
+    backgroundColor: "red",
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  imagePanel:{
+    height: 120,
+    width: "100%",
   },
   content: {
     flex: 1,
