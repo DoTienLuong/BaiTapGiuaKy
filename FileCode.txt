@@ -9,37 +9,37 @@ const food = [
     "name": "Beef Ramen",
     "price": "$23.00",
     "like": 100,
-    "image": "./assets/anh1.png"
+    "image": "./assets/sup.png"
   },
   {
     "name": "Premium Ramen",
     "price": "$27.00",
     "like": 100,
-    "image": "./assets/anh1.png"
+    "image": "./assets/sup.png"
   },
   {
     "name": "Salted Edd Ramen",
     "price": "$25.00",
     "like": 100,
-    "image": "./assets/anh1.png"
+    "image": "./assets/sup.png"
   },
   {
     "name": "Chicken Ramen",
     "price": "$20.95",
     "like": 100,
-    "image": "./assets/anh1.png"
+    "image": "./assets/sup.png"
   },
   {
     "name": "Crabstick Ramen",
     "price": "$17.75",
     "like": 100,
-    "image": "./assets/anh1.png"
+    "image": "./assets/sup.png"
   },
   {
     "name": "Spicy Ramen",
     "price": "$22.50",
     "like": 100,
-    "image": "./assets/anh1.png"
+    "image": "./assets/sup.png"
   },
 ]
 
