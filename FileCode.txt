@@ -82,7 +82,7 @@ const App = ({ navigation }) => {
   const handleFilterChange = (type) => {
     setFilter(type);
   };
-  const filteredProducts = filter === 'All' ? products : products.filter(product => product.type === filter);
+  const filteredProducts = filter === 'All' ? products : products.filter(product => product.name === filter);
 
   return (
     <View style={styles.container}>
